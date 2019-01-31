@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yao</groupId>
+    <artifactId>spring-rmi-demo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>rmi-api</module>
+        <module>rmi-server</module>
+        <module>rmi-core</module>
+        <module>rmi-db</module>
+        <module>slf4j</module>
+        <module>../xpand-rmi-demo</module>
+
+    </modules>
+
+    <properties>
+        <!-- 文件拷贝时的编码 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- 编译时的编码 -->
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <!-- 编译jdk版本 -->
+        <java.version>1.8</java.version>
+        <gson_version>2.3</gson_version>
+        <json_version>20090211</json_version>
+        <netty-all_version>4.0.36.Final</netty-all_version>
+        <oracle-driver_version>10.2.0.4.0</oracle-driver_version>
+        <!--<spring_version>5.1.4.RELEASE</spring_version>-->
+        <spring_version>4.0.4.RELEASE</spring_version>
+        <commons-dbcp_version>1.4</commons-dbcp_version>
+        <jxl_version>2.6</jxl_version>
+        <hibernate_version>4.3.5.Final</hibernate_version>
+        <hibernate-commons-annotations_version>4.0.4.Final</hibernate-commons-annotations_version>
+        <hibernate-jpa21-api_version>1.0.0.Final</hibernate-jpa21-api_version>
+        <log4j_version>2.8.2</log4j_version>
+        <okhttp_version>3.8.1</okhttp_version>
+        <fastjson_version>1.2.38</fastjson_version>
+        <junit_version>4.12</junit_version>
+        <lang3_version>3.1</lang3_version>
+        <commons_collections4>4.1</commons_collections4>
+        <codec_version>1.10</codec_version>
+        <slf4j_version>1.7.21</slf4j_version>
+        <commons_beanutils_version>1.8.3</commons_beanutils_version>
+    </properties>
+
+
+</project>
