@@ -24,6 +24,7 @@ public class XpandRmiProxyFactoryBean extends RmiProxyFactoryBean {
         if (requestId != null){
             remoteInvocation.addAttribute("requestId",requestId);
         }
+        System.out.println("RMI client trace id:"+requestId);
         return invocationHandler.invoke(remoteInvocation);
     }
 }

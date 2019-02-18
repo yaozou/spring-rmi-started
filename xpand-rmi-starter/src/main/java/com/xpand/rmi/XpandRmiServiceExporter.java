@@ -23,6 +23,7 @@ public class XpandRmiServiceExporter extends RmiServiceExporter {
         if (requestId != null){
             RmiThreadLocal.set((String) requestId);
         }
+        System.out.println("RMI service trace id:"+requestId);
         return super.invoke(invocation, targetObject);
     }
 }
