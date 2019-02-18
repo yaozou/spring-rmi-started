@@ -34,7 +34,7 @@ public class QueryConverter extends LogEventPatternConverter {
     @Override
     public void format(LogEvent event, StringBuilder toAppendTo) {
         if (RmiThreadLocal.get() != null){
-            toAppendTo.append("request-id:"+RmiThreadLocal.get());
+            toAppendTo.append(RmiThreadLocal.get());
         }
     }
 }
